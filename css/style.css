@@ -1,0 +1,106 @@
+
+
+#content_header
+{ width: 928px;
+  background: url(content_header.png) no-repeat;
+  height: 15px;
+  margin-top: -50px;
+  margin-left: 50px;
+  }
+#site_content
+{ width: 400px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0px 10px 20px 40px;
+  } 
+  #sidebar_container
+{ float: left;
+  width: 224px;
+  padding: 10px 15px 20px 0;}
+  .sidebar_top, .sidebar_base
+{ width: 600px;
+  height: 14px;
+  background: transparent url(side_top.png) no-repeat;}
+
+.sidebar_base
+{ background: url(side_base.png) no-repeat;}
+
+.sidebar
+{ float: left;
+  width: 600px;
+  padding: 0;
+  margin: 0 0 16px 0;}
+
+.sidebar_item
+{ background: #EEE;
+  padding: 0 45px;
+  width: 192px;
+  margin-left: 100px;
+  margin-top: 80px;
+  }
+ 
+
+h1 {
+	color:	#008B8B;
+}
+h2 {
+	color: #4B0082;
+}
+p {
+	font-size: 110%;
+}
+li {
+	 font-size: 110%;
+}
+
+
+body {
+	   font-family: Ariel, sans-serif;
+}
+div#container {
+	         width: 940px;
+			 margin: 0 auto;
+}
+#nav {
+	   margin: 0;
+	   padding: 10px;
+	   background-color: #20B2AA;
+	   text-shadow: 0 0 20px #000000;
+}
+#footer {
+	      background-color: #20B2AA;
+		  color: #FFF;
+}
+
+
+#nav li {
+	      list-style: none;
+		  float: left;
+		  padding: 0 15px;
+	   
+	   
+}
+#body p {
+	      line-height: 1.6em;
+}
+#nav li a:link, #nav li a:visited{
+	text-decoration: none
+}
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+
+}
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {height: 1%;}
+
+.clearfix {display: block;}
+
+/* End hide from IE-mac */
+
